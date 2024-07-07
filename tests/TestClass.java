@@ -32,7 +32,6 @@ public class TestClass {
 		forms.put("client_id", "22jun24");
 		forms.put("client_secret", client_secret);
 		forms.put("grant_type", "client_credentials");
-		forms.put("client_id", "22jun24");
 		context.formParams = forms;
 		Response resp = Methods.POST(context);
 		token = resp.jsonPath().get("access_token").toString();
