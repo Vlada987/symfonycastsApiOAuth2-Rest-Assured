@@ -8,7 +8,7 @@ public enum EContentType {
 
 	String contentType;
 
-	EContentType(String eContentType) {
+	EContentType(String contentType) {
 		this.contentType = contentType;
 	}
 
